@@ -1,7 +1,8 @@
 TARGET            = qwtplot3d
 TEMPLATE          = lib
 DESTDIR      	  = ../lib
-CONFIG           += qt warn_on thread static
+#CONFIG           += qt warn_on thread static
+CONFIG           += qt warn_on thread dynamic release opengl 
 QT               += opengl
 
 SOURCES           = *.cpp
